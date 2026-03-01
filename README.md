@@ -2,6 +2,9 @@
 Partial evaluation (PE) framework that optimizes Pandas programs by eliminating unnecessary Python-level work such as row-wise `apply`, small static loops, repeated constant computations, and simple UDF calls. The system parses a Pandas-oriented DSL, performs binding-time analysis, and generates optimized residual Pandas code.
 
 ---
+> **Note:** This repository was incorrectly cited in the paper *"Federated Learning for LLM Fine-tuning on Java Error Classification"*. The correct implementation is available at [uwm-se/AI-grading](https://github.com/uwm-se/AI-grading).
+
+---
 
 ## Key Features
 - Pandas-focused DSL + AST normalization  
